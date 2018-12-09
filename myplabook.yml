@@ -1,0 +1,7 @@
+---
+- hosts: all
+  remote_user: ansible1
+  become: true
+  tasks: 
+  - name: To create users.
+    user: name=jenkin_test state=present
