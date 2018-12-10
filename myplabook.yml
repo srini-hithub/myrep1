@@ -5,3 +5,4 @@
   tasks: 
   - name: To create users.
     user: name=jenkin_test state=present
+  - group: name=mygroup state=present
