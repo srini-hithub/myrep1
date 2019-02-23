@@ -4,5 +4,5 @@
   become: true
   tasks: 
   - name: To create users.
-    user: name=jenkin_test21 state=present
+    user: name=jenkin_test1 state=present
   - group: name=mygroup state=present
